@@ -1,0 +1,45 @@
+---
+author: Tuomas Koskela
+date: 2026-07-06
+format: revealjs
+institute: "[UCL ARC](https://www.ucl.ac.uk/advanced-research-computing)"
+subtitle: "[ICS 2026 Workshop on Reproducible and Sustainable HPC Benchmarking](https://software.llnl.gov/benchpark/ics.html)"
+title: "Reflections on Building Portable Benchmarking Frameworks"
+---
+
+# Who am I?
+
+## Who am I? {data-menu-title="Who am I? (i)"}
+
+- I am a research software engineer at UCL
+- I lead a team of HPC Research Software Engineers at UCL
+- We mostly work on HPC research applications and tools
+- I don’t run a HPC system
+- I don’t own the applications I work on
+
+# Motivation
+
+## Who Wouldn't Want Automatic Benchmarks
+
+- Sysadmins
+- Developers
+- Researchers
+- Procurement’ers
+
+## It is not that hard
+
+- Wrapping around build systems
+- Templating for scheduler scripts
+- Output parsing
+- Logging
+
+## Disclosure: I did this too
+
+- Excalibur-tests project
+  - Clear separation of platforms and benchmarks
+  - Support everything we can get our hands on
+  - Engage with local teams for maintenance
+- Users
+  - 1 team of RSE’s (mine)
+  - 1 postdoc (Co-I’s)
+  - 1 team of sysadmins (maybe)
