@@ -1,45 +1,111 @@
 ---
 author: Tuomas Koskela
 date: 2026-07-06
-format: revealjs
-institute: "[UCL ARC](https://www.ucl.ac.uk/advanced-research-computing)"
-subtitle: "[ICS 2026 Workshop on Reproducible and Sustainable HPC Benchmarking](https://software.llnl.gov/benchpark/ics.html)"
-title: "Reflections on Building Portable Benchmarking Frameworks"
+format:
+  revealjs:
+    institute: "[UCL ARC](https://www.ucl.ac.uk/advanced-research-computing)"
+    subtitle: "[ICS 2026 Workshop on Reproducible and Sustainable HPC Benchmarking](https://software.llnl.gov/benchpark/ics.html)"
+    title: "Reflections on Building Portable Benchmarking Frameworks"
+    incremental: true
+    theme: dark
+    transition: fade
+    view-distance: 10
+    logo: https://www.ucl.ac.uk/brand-and-experience/sites/brand_and_experience/files/styles/small_desktop_16_9/public/2026-01/brand-VI-200-logo-singlecolour-darkpurple-bg.png.webp?itok=MAg2quFl
 ---
 
 # Who am I?
 
-## Who am I? {data-menu-title="Who am I? (i)"}
-
-- I am a research software engineer at UCL
-- I lead a team of HPC Research Software Engineers at UCL
-- We mostly work on HPC research applications and tools
-- I don’t run a HPC system
-- I don’t own the applications I work on
+- I am a research software engineer at UCL Advanced Research Computing Centra (ARC)
+- I lead a team of HPC Research Software Engineers
+  - We work on research grants with researchers
+  - We mostly develop HPC research applications and tools
+  - We usually are not the main developers of the applications
+- I don’t run an HPC system
 
 # Motivation
 
-## Who Wouldn't Want Automatic Benchmarks
+## We all Want Automatic Benchmarks
 
-- Sysadmins
 - Developers
 - Researchers
-- Procurement’ers
+- Sysadmins
+- Procurements
 
-## It is not that hard
+## It is not that hard to automate benchmarks
 
 - Wrapping around build systems
 - Templating for scheduler scripts
 - Output parsing
 - Logging
 
-## Disclosure: I did this too
+# Disclosure: I did this too
 
-- Excalibur-tests project
-  - Clear separation of platforms and benchmarks
-  - Support everything we can get our hands on
-  - Engage with local teams for maintenance
-- Users
-  - 1 team of RSE’s (mine)
-  - 1 postdoc (Co-I’s)
-  - 1 team of sysadmins (maybe)
+## Excalibur-tests project
+
+- Driven by ExCALIBUR H&ES and research at Bristol and Met Office
+- <https://ukri-excalibur.github.io/excalibur-tests/>
+- Glue code for Spack and ReFrame
+- Clear abstraction of platforms and benchmarks
+- Support wide range of platforms and benchmarks
+- Engage with local admins to maintain environments
+
+::: footer
+
+[T Koskela et. al. 2023. Principles for Automated and Reproducible Benchmarking. In Proceedings of the SC '23 Workshops of the International Conference on High Performance Computing, Network, Storage, and Analysis.](https://dl.acm.org/doi/10.1145/3624062.3624133)
+
+:::
+
+## Principles for Automated and Reproducible Benchmarking
+
+1. A benchmark application should measure the efficiency of the application on a given platform.
+2. Teach the build system to build the benchmark using the best known parameters on each platform.
+3. Rebuild the benchmark every time it runs to guarantee the steps to reproduce the binary are known.
+4. Capture all steps taken to build the benchmark.
+5. Capture all steps to run the benchmark.
+6. Collect and post-process the data in a programmable way
+
+::: footer
+
+[T Koskela et. al. 2023. Principles for Automated and Reproducible Benchmarking. In Proceedings of the SC '23 Workshops of the International Conference on High Performance Computing, Network, Storage, and Analysis.](https://dl.acm.org/doi/10.1145/3624062.3624133)
+
+:::
+
+## Feedback from the UK Community
+
+- We gave a number of talks, workshops and hackthons about benchmarking
+- Received positive feedback from workshop attendees and collaborators
+- Users:
+  - 1 team of RSE’s (UCL)
+  - 1 research group (Bristol)
+  - 1 team of HPC admins (DiRAC)
+
+# What are we Doing Now?
+
+## UKRI Living Benchmarks Project
+
+- "Funding mechanisms in the UK can make good benchmarking for procurement hard"
+- Provide a curated set of HPC benchmarks for UK acedemia and industry
+- Open source and publicly available at <https://github.com/ukri-bench>
+- Supporting the UK Next National Supercomputing Service
+  - Accounced June 2025
+  - Target delivery date in late 2027
+  - <https://github.com/UKNNSS-Benchmarks>
+
+## Other Use Cases
+- DiRAC
+  - HPC facility for UK theoretical physics community
+  - Early users of excalibur-tests, currently not maintained
+- Square Kilometre Array UK Regional Centre
+  - International astronomy collaboration on the scale of e.g. CERN and ITER
+  - Regional Center will deploy large data processing infrastructure, needs benchmark data
+  - <https://github.com/uksrc-developers/uksrc-excalibur-tests>
+
+# Reflections
+
+- Portability is hard and takes continuous maintenance
+  - Funding software maintenance is challenging
+- Institutional and individual buy-in are both important
+  - Portability across institutions is also challengin
+- The tools you use don't matter, as long they enable reproducibility
+
+# Thank you for listening!
