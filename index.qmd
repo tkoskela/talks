@@ -6,8 +6,6 @@ format:
 listing:
   contents: .
   date-format: iso
-  exclude:
-    title: Page Not Found
   field-display-names:
     institute: Organisation
     subtitle: Event

@@ -1,24 +1,19 @@
 ---
 author: Tuomas Koskela
 date: 2026-07-06
-format:
-  revealjs:
-    institute: "[UCL ARC](https://www.ucl.ac.uk/advanced-research-computing)"
-    subtitle: "[ICS 2026 Workshop on Reproducible and Sustainable HPC Benchmarking](https://software.llnl.gov/benchpark/ics.html)"
-    title: "Reflections on Building Portable Benchmarking Frameworks"
-    incremental: true
-    theme: dark
-    transition: fade
-    view-distance: 10
-    logo: https://www.ucl.ac.uk/brand-and-experience/sites/brand_and_experience/files/styles/small_desktop_16_9/public/2026-01/brand-VI-200-logo-singlecolour-darkpurple-bg.png.webp?itok=MAg2quFl
+format: revealjs
+institute: "[UCL ARC](https://www.ucl.ac.uk/advanced-research-computing)"
+subtitle: "[ICS 2026 Workshop on Reproducible and Sustainable HPC Benchmarking](https://software.llnl.gov/benchpark/ics.html)"
+title: "Reflections on Building Portable Benchmarking Frameworks"
+logo: https://www.ucl.ac.uk/brand-and-experience/sites/brand_and_experience/files/styles/small_desktop_16_9/public/2026-01/brand-VI-200-logo-singlecolour-darkpurple-bg.png.webp?itok=MAg2quFl
 ---
 
 # Who am I?
 
 - I am a research software engineer at UCL Advanced Research Computing Centra (ARC)
-- I lead a team of HPC Research Software Engineers
+- I lead a team of HPC Research Software Engineer
+  - We develop HPC research applications and tools
   - We work on research grants with researchers
-  - We mostly develop HPC research applications and tools
   - We usually are not the main developers of the applications
 - I don’t run an HPC system
 
@@ -31,8 +26,9 @@ format:
 - Sysadmins
 - Procurements
 
-## It is not that hard to automate benchmarks
+## Ingredients for Automated Benchmarking
 
+- Figures of Merit
 - Wrapping around build systems
 - Templating for scheduler scripts
 - Output parsing

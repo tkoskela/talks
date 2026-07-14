@@ -1,4 +1,4 @@
----
+
 project:
   type: website
 
@@ -21,8 +21,7 @@ format:
       theme: dark
     mobile-view-distance: 10
     slide-number: c
-    theme:
-      - dark
+    theme: dark
     title-slide-attributes:
       data-footer: false
     transition: fade
