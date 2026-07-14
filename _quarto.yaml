@@ -1,0 +1,39 @@
+---
+project:
+  type: website
+
+execute:
+  cache: true
+
+format:
+  html:
+    theme: darkly
+  revealjs:
+    auto-play-media: true
+    auto-stretch: false
+    callout-appearance: simple
+    code-copy: true
+    footer: "{{< meta title >}}"
+    hash-type: number
+    history: false
+    incremental: true
+    mermaid:
+      theme: dark
+    mobile-view-distance: 10
+    slide-number: c
+    theme:
+      - dark
+    title-slide-attributes:
+      data-footer: false
+    transition: fade
+    view-distance: 10
+
+website:
+  navbar:
+    tools:
+      - icon: house
+        href: https://tkoskela.github.io
+      - icon: github
+        href: https://github.com/tkoskela/talks
+  site-url: https://tkoskela.github.io/talks
+  title: Tuomas Koskela
