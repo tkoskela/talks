@@ -1,0 +1,20 @@
+.reveal .slide-logo {
+  max-width: 200px !important;
+  max-height: 100px !important;
+  height: auto !important;
+  width: auto !important;
+}
+
+.reveal .footer-logo {
+  max-width: 200px !important;
+  max-height: 100px !important;
+}
+
+.reveal .footer {
+  bottom: 0 !important;
+  height: 180px !important;
+  display: flex !important;
+  align-items: flex-end !important;
+  justify-content: center !important;
+  padding-bottom: 10px !important;
+}

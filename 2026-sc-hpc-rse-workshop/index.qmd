@@ -6,6 +6,7 @@ institute: "[UCL ARC](https://www.ucl.ac.uk/advanced-research-computing)"
 subtitle: "[SC26 Research Software Engineers in HPC Workshop](https://us-rse.org/rse-hpc-2026/)"
 title: "Supporting HPC Research Software Engineers Across the UK: The HPC RSE SIG"
 logo: https://www.ucl.ac.uk/brand-and-experience/sites/brand_and_experience/files/styles/small_desktop_16_9/public/2026-01/brand-VI-200-logo-singlecolour-darkpurple-bg.png.webp?itok=MAg2quFl
+css: custom.css
 ---
 
 # Who am I?
