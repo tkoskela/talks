@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://tkoskela.github.io/talks/index.html</loc>
-    <lastmod>2026-11-15T22:43:28.499Z</lastmod>
-  </url>
-  <url>
     <loc>https://tkoskela.github.io/talks/2026-sc-hpc-rse-workshop/index.html</loc>
-    <lastmod>2026-11-15T22:43:28.499Z</lastmod>
+    <lastmod>2026-11-15T22:50:31.962Z</lastmod>
   </url>
   <url>
     <loc>https://tkoskela.github.io/talks/2026-ics-benchmarking-workshop/index.html</loc>
-    <lastmod>2026-11-15T22:43:28.496Z</lastmod>
+    <lastmod>2026-11-15T22:50:31.959Z</lastmod>
+  </url>
+  <url>
+    <loc>https://tkoskela.github.io/talks/index.html</loc>
+    <lastmod>2026-11-15T22:50:31.962Z</lastmod>
   </url>
 </urlset>
