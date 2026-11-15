@@ -1,0 +1,56 @@
+---
+author: Tuomas Koskela
+date: 2026-11-16
+format: revealjs
+institute: "[UCL ARC](https://www.ucl.ac.uk/advanced-research-computing)"
+subtitle: "[SC26 Research Software Engineers in HPC Workshop](https://us-rse.org/rse-hpc-2026/)"
+title: "Supporting HPC Research Software Engineers Across the UK: The HPC RSE SIG"
+logo: https://www.ucl.ac.uk/brand-and-experience/sites/brand_and_experience/files/styles/small_desktop_16_9/public/2026-01/brand-VI-200-logo-singlecolour-darkpurple-bg.png.webp?itok=MAg2quFl
+---
+
+# Who am I?
+
+- I am a principal research software engineer at UCL Advanced Research Computing Centre (ARC)
+- We are a central team of full-time research software engineers, research infrastructure developers, data scientists, data stewards and PRISMs supporting research across UCL
+- We are a hybrid academic and service department
+- I'm also a member of the HPC RSE SIG
+
+# HPC RSEs in the UK
+
+- UK has a large RSE community
+- There are many RSEs working in HPC, but they are often isolated
+- Different roles from development of research software to support of HPC facilities
+- A few large central teams, and many small teams or individuals
+- Many efforts over the last 10+ years to build community and support HPC RSEs
+
+# HPC RSE SIG
+
+::: {layout="[70,15,15]"}
+
+- HPC RSE SIG was formed in 2025 to support HPC RSEs across the UK
+- Governed by a steering group of volunteers from across the UK
+- Organises events, workshops and training for HPC RSEs
+- TODO: Something about terms of reference and membership
+
+![](images/tuomas.jpg)
+![](images/simonB.jpeg)
+![](images/thomas.png)
+
+![](images/marion.jpeg)
+![](images/gavin.png)
+![](images/simonC.jpeg)
+
+
+:::
+
+# Activities in 2025-2026
+
+- Two regular face to face meetings per year in RSECon and Durham HPC Days
+  - Talks, Panels, Networking
+- Ad hoc virtual meetings to discuss topics of interest
+- https://socrse.github.io/hpc-rse-sig/
+- No international activities (yet)
+
+# We are at Booth #4656
+
+![](images/booth.png)
